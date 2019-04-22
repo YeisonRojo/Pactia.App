@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home_1"
+        android:icon="@drawable/home"
+        android:title="Sobre Pactia" />
+    <item
+        android:id="@+id/nav_home_2"
+        android:icon="@drawable/portfolio"
+        android:title="Portafolio" />
+    <item
+        android:id="@+id/nav_home_3"
+        android:icon="@drawable/clients"
+        android:title="Clientes" />
+    <item
+        android:id="@+id/nav_home_4"
+        android:icon="@drawable/meeting"
+        android:title="Solicitar cita" />
+    <item
+        android:id="@+id/nav_home_5"
+        android:icon="@drawable/news"
+        android:title="Noticias" />
+  </group>
+
+
+
+</menu>

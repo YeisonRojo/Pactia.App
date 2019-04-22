@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2"
+		android:background="@drawable/background">
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutArticle">
+			<TextView
+				android:text="NOTICIAS"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewNewsTitle"
+				android:textStyle="bold"
+				android:textSize="20dp"
+				android:textAlignment="textStart"
+				android:layout_marginLeft="20px"
+				android:layout_marginTop="40px"
+				android:textColor="@color/primaryDark" />
+		</LinearLayout>
+		<ScrollView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/scrollViewNews"
+			android:layout_marginTop="30px">
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayoutNewsEvents"
+				android:layout_marginBottom="30px"
+				android:layout_marginRight="20px"
+				android:layout_marginLeft="20px"
+						>
+				<LinearLayout
+					android:orientation="vertical"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayoutEvent1"
+					android:background="#ffffffff">
+					<TextView
+						android:text="Actividades relevantes 3Q 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent1Title"
+						android:layout_gravity="left"
+						android:textSize="16dp"
+						android:textColor="@color/light_blue"
+						android:textStyle="bold"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px" />
+					<TextView
+						android:text="18 septiembre, 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent1Date"
+						android:layout_gravity="bottom"
+						android:textAlignment="viewEnd"
+						android:textAllCaps="false"
+						android:gravity="start"
+						android:textSize="15dp"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px"/>
+					<TextView
+						android:text="Medellin"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent1City"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+					<TextView
+						android:text="La compañía inicia el desarrollo de 850 Le Jeune, un proyecto que hace parte de su línea de negocio de Vivienda en arriendo, que integra unidades de vivienda con espacios de oficinas y comercio, ubicado en Miami, Estados Unidos."
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent1Content"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="14dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginRight="10px"
+						android:layout_marginLeft="10px"
+						android:textColor="#ff000000"
+						android:freezesText="false"
+						android:maxLines="3" />
+					<TextView
+						android:text="Hora: 7:00 PM"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent1Hour"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px" />
+					<TextView
+						android:text="Carrera 43 A # 18 Sur - 135"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent1Location"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+				</LinearLayout>
+				<LinearLayout
+					android:orientation="vertical"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayoutEvent2"
+					android:layout_marginTop="30px"
+					android:background="#ffffffff">
+					<TextView
+						android:text="Actividades relevantes 3Q 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent2Title"
+						android:layout_gravity="left"
+						android:textSize="16dp"
+						android:textColor="@color/light_blue"
+						android:textStyle="bold"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px" />
+					<TextView
+						android:text="18 septiembre, 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent2Date"
+						android:layout_gravity="bottom"
+						android:textAlignment="viewEnd"
+						android:textAllCaps="false"
+						android:gravity="start"
+						android:textSize="15dp"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px"/>
+					<TextView
+						android:text="Medellin"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent2Place"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+					<TextView
+						android:text="La compañía inicia el desarrollo de 850 Le Jeune, un proyecto que hace parte de su línea de negocio de Vivienda en arriendo, que integra unidades de vivienda con espacios de oficinas y comercio, ubicado en Miami, Estados Unidos."
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent2Content"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="14dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginRight="10px"
+						android:layout_marginLeft="10px"
+						android:textColor="#ff000000"
+						android:freezesText="false"
+						android:maxLines="3" />
+					<TextView
+						android:text="Hora: 7:00 PM"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent2Hour"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px" />
+					<TextView
+						android:text="Carrera 43 A # 18 Sur - 135"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent2Location"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+				</LinearLayout>
+				<LinearLayout
+					android:orientation="vertical"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayoutEvent3"
+					android:layout_marginTop="30px"
+					android:background="#ffffffff">
+					<TextView
+						android:text="Actividades relevantes 3Q 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent3Title"
+						android:layout_gravity="left"
+						android:textSize="16dp"
+						android:textColor="@color/light_blue"
+						android:textStyle="bold"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px" />
+					<TextView
+						android:text="18 septiembre, 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent3Date"
+						android:layout_gravity="bottom"
+						android:textAlignment="viewEnd"
+						android:textAllCaps="false"
+						android:gravity="start"
+						android:textSize="15dp"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px"/>
+					<TextView
+						android:text="Medellin"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent3Place"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+					<TextView
+						android:text="La compañía inicia el desarrollo de 850 Le Jeune, un proyecto que hace parte de su línea de negocio de Vivienda en arriendo, que integra unidades de vivienda con espacios de oficinas y comercio, ubicado en Miami, Estados Unidos."
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent3Content"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="14dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginRight="10px"
+						android:layout_marginLeft="10px"
+						android:textColor="#ff000000"
+						android:freezesText="false"
+						android:maxLines="3" />
+					<TextView
+						android:text="Hora: 7:00 PM"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent3Hour"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px" />
+					<TextView
+						android:text="Carrera 43 A # 18 Sur - 135"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent3Location"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+				</LinearLayout>
+				<LinearLayout
+					android:orientation="vertical"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayoutEvent4"
+					android:layout_marginTop="30px"
+					android:background="#ffffffff">
+					<TextView
+						android:text="Actividades relevantes 3Q 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent4Title"
+						android:layout_gravity="left"
+						android:textSize="16dp"
+						android:textColor="@color/light_blue"
+						android:textStyle="bold"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px" />
+					<TextView
+						android:text="18 septiembre, 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent4Date"
+						android:layout_gravity="bottom"
+						android:textAlignment="viewEnd"
+						android:textAllCaps="false"
+						android:gravity="start"
+						android:textSize="15dp"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px"/>
+					<TextView
+						android:text="Medellin"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent4Place"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+					<TextView
+						android:text="La compañía inicia el desarrollo de 850 Le Jeune, un proyecto que hace parte de su línea de negocio de Vivienda en arriendo, que integra unidades de vivienda con espacios de oficinas y comercio, ubicado en Miami, Estados Unidos."
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent4Content"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="14dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginRight="10px"
+						android:layout_marginLeft="10px"
+						android:textColor="#ff000000"
+						android:freezesText="false"
+						android:maxLines="3" />
+					<TextView
+						android:text="Hora: 7:00 PM"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent4Hour"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px" />
+					<TextView
+						android:text="Carrera 43 A # 18 Sur - 135"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent4Location"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+				</LinearLayout>
+				<LinearLayout
+					android:orientation="vertical"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayoutEvent5"
+					android:layout_marginTop="30px"
+					android:background="#ffffffff">
+					<TextView
+						android:text="Actividades relevantes 3Q 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent5Title"
+						android:layout_gravity="left"
+						android:textSize="16dp"
+						android:textColor="@color/light_blue"
+						android:textStyle="bold"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px" />
+					<TextView
+						android:text="18 septiembre, 2018"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent5Date"
+						android:layout_gravity="bottom"
+						android:textAlignment="viewEnd"
+						android:textAllCaps="false"
+						android:gravity="start"
+						android:textSize="15dp"
+						android:layout_marginLeft="10px"
+						android:layout_marginRight="10px"/>
+					<TextView
+						android:text="Medellin"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent5Place"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+					<TextView
+						android:text="La compañía inicia el desarrollo de 850 Le Jeune, un proyecto que hace parte de su línea de negocio de Vivienda en arriendo, que integra unidades de vivienda con espacios de oficinas y comercio, ubicado en Miami, Estados Unidos."
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent5Content"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="14dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginRight="10px"
+						android:layout_marginLeft="10px"
+						android:textColor="#ff000000"
+						android:freezesText="false"
+						android:maxLines="3" />
+					<TextView
+						android:text="Hora: 7:00 PM"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent5Hour"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="20px"
+						android:layout_marginLeft="10px" />
+					<TextView
+						android:text="Carrera 43 A # 18 Sur - 135"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewNewsEvent5Location"
+						android:width="100px"
+						android:textStyle="normal"
+						android:textSize="15dp"
+						android:textAlignment="viewStart"
+						android:layout_marginTop="5px"
+						android:layout_marginLeft="10px"
+						android:layout_marginBottom="10px" />
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

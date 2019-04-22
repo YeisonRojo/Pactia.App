@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2"
+		android:background="@drawable/background">
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutArticle">
+			<TextView
+				android:text="SOLICITAR CITA"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewMeetingTitle"
+				android:textStyle="bold"
+				android:textSize="20dp"
+				android:textAlignment="textStart"
+				android:layout_marginLeft="20px"
+				android:layout_marginTop="40px"
+				android:textColor="@color/primaryDark" />
+		</LinearLayout>
+		<ScrollView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/scrollViewMeeting"
+			android:layout_marginTop="30px">
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout7"
+				android:layout_marginLeft="20px"
+				android:layout_marginRight="20px">
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextMeetingName"
+					android:hint="Nombre"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="text"/>
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextMeetingBusinessName"
+					android:hint="Razón social"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="text" />
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextMeetingEmail"
+					android:hint="E-mail"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="textWebEmailAddress" />
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextMeetingPhoneNumber"
+					android:hint="Teléfono"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="phone" />
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextMeetingMessage"
+					android:hint="Mensaje"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="text" />
+				<Spinner
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/spinnerServiceLines"
+					android:spinnerMode="dropdown"/>
+				<Switch
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/switchMeetingAcceptConditions"
+					android:hint="Acepto políticas de tratamiento de datos personales."
+					android:enabled="true"
+					android:layout_marginTop="20px" />
+				<Button
+					android:text="Solicitar Cita"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/buttonMeetingSend"
+					android:background="@color/light_blue"
+					android:textColor="#ff000000"
+					android:layout_marginLeft="40px"
+					android:layout_marginRight="40px"
+					android:layout_marginBottom="100px"
+					android:layout_marginTop="50px"
+					android:textStyle="bold" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

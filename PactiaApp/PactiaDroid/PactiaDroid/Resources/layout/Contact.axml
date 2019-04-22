@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayoutMainNewEvent"
+		android:background="@drawable/background">
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutArticle">
+			<TextView
+				android:text="CONTACTO"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewContactTitle"
+				android:textStyle="bold"
+				android:textSize="20dp"
+				android:textAlignment="textStart"
+				android:layout_marginLeft="20px"
+				android:layout_marginTop="40px"
+				android:textColor="@color/primaryDark"
+                
+             />
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout7"
+				android:layout_marginLeft="20px"
+				android:layout_marginRight="20px">
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextContactName"
+					android:hint="Nombre"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="text" />
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextContactBusinessName"
+					android:hint="Razón social"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="text" />
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextContactEmail"
+					android:hint="E-mail"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="textWebEmailAddress" />
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextContactPhoneNumber"
+					android:hint="Telefono"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="phone" />
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/editTextContactMessage"
+					android:hint="Mensaje"
+					android:layout_marginBottom="10px"
+					android:textSize="15dp"
+					android:inputType="text" />
+				<Spinner
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/spinnerContactServiceLines"
+					android:spinnerMode="dropdown"/>
+				<Switch
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/switchContactAcceptConditions"
+					android:hint="Acepto políticas de tratamiento de datos personales."
+					android:layout_marginTop="20px"
+					android:layout_marginLeft="10px"
+					android:layout_marginRight="10px"
+					android:enabled="true" />
+				<Button
+					android:text="ENVIAR MENSAJE"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/buttonContactSend"
+					android:background="@color/light_blue"
+					android:textColor="#ff000000"
+					android:layout_marginLeft="40px"
+					android:layout_marginRight="40px"
+					android:layout_marginBottom="100px"
+					android:layout_marginTop="50px"
+					android:textStyle="bold" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>
